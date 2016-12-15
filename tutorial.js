@@ -3,8 +3,8 @@ var util = require('util');
 
 /* CONFIGURATION */
 var config = {
-	gcpProjectId: '',
-	gcpPubSubSubscriptionName: '',
+	gcpProjectId: 'gianmaiot',
+	gcpPubSubSubscriptionName: 'monitor',
 	gcpServiceAccountKeyFilePath: './gcp_private_key.json'
 }
 _checkConfig();
