@@ -3,7 +3,7 @@ var util = require('util');
 
 /* CONFIGURATION */
 var config = {
-	gcpProjectId: '',
+	gcpProjectId: '4',
 	gcpPubSubSubscriptionName: '',
 	gcpServiceAccountKeyFilePath: './gcp_private_key.json'
 }
